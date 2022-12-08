@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.img-logo {
+    width: 150px;
+    height: 150px;
+    padding: 0;
+}
+.navbar-collapse .navbar-nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-color: transparent;
+    padding: 0;
+    margin: 0;
+    min-height: 5px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.nav-toggle{
+    border-color: #f7f7f7;
+  
+}
+.navbar {
+    padding: 0;
+}
+.nav-item{
+    text-align: center;
+}
+.carousel-slide .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 200px;
+}
+.carousel img {
+    height: 760px;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.acc-carousel img {
+    height: 460px;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.loc-carousel img {
+    height: 360px;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.faq-carousel img {
+    height: 360px;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.banner {
+    background-color: #CE8458;
+}
+
+.find ul li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 0.4rem;
+
+}
+
+h3 {
+    text-align: center;
+}
+
+.contact-us {
+    background-color: #CE8458;
+
+}
+
+hr {
+    margin: 0;
+}
+
+.btn {
+    border-color: #CE8458;
+    color: #CE8458;
+}
+.send-now{
+    background-color: #CE8458;
+    color: white;
+    width: 100%;   
+}
+.send-label{
+    text-align: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    background-color: #CE8458;
+    color: white;
+}
+
+.subscribe {
+    border-color: #76492e;
+    color: #76492e;
+}
+
+.subscribe:hover {
+    background-color: #76492e;
+    color: white;
+}
+
+.carousel-caption {
+    transform: translateY(80%);
+    bottom: initial;
+    top: 30%;
+}
+
+.project-image-wrapper {
+    justify-self: center;
+    padding: 4%;
+    position: relative;
+}
+
+.project-image {
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+    transition: .2s all ease in-out;
+    height: 391px;
+    object-fit: cover;
+}
+
+.project-image:hover {
+    filter: brightness(.75);
+    box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+}
+
+.project-image-wrapper:hover>h4 {
+    visibility: visible;
+}
+
+.project-image-wrapper>h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    z-index: 2;
+    transition: all ease-in-out .2s;
+}
+.project-image-wrapper:hover > button {
+    visibility: visible;
+}
+
+.project-image-wrapper > button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    visibility: hidden;
+    z-index: 2;
+    transition: all ease-in-out .2s;
+}
+.map-area iframe{
+    width: 100%;
+    border: none;
+    margin-top: 1rem;
+}
+.accod-section a{
+    text-decoration: none;
+}
+
+#contact-accodion{
+    display: none;
+}
+@media only screen and (max-device-width: 768px){
+#contact-accordion {
+    display: block;
+}
+}
+label {
+    font-size: 1.25rem;
+    letter-spacing: .072em;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.about-us-content{
+    background-color: rgb(229, 229, 229);
+}
+.about-logo-img{
+    height: 160px;
+}
