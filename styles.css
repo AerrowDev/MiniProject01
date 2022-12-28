@@ -5,8 +5,8 @@
     font-size:medium;
 }
 .img-logo {
-    width: 150px;
-    height: 150px;
+    width:96px;
+    height: 96px;
     padding: 0;
 }
 .navbar-collapse .navbar-nav {
@@ -101,7 +101,8 @@ hr {
 .send-now{
     background-color: #CE8458;
     color: white;
-    width: 100%;   
+    width: 30%;  
+    align-self: end;
 }
 .send-label{
     text-align: center;
@@ -117,7 +118,6 @@ hr {
     border-color: #76492e;
     color: #76492e;
 }
-
 .subscribe:hover {
     background-color: #76492e;
     color: white;
@@ -245,4 +245,9 @@ label {
 }
 .about-logo-img{
     height: 160px;
+}
+
+@media screen (max-width: 350px) {
+    
+    
 }
