@@ -170,11 +170,11 @@
         </div>
         <div class="col-sm-12 col-md-4">
             <h3> CONTACT</h3>
-            <p >
-              GLOBE - 0977 616 2529<br>
-              SMART - 0981 399 2301</p>
-             <p> info@haruruinspring.com</p>
-            </p>
+            <p>
+                GLOBE - 0977 616 2529 <br>
+                SMART - 0981 399 2301 <br>
+                info@haruruinspring.com
+              </p>
         </div>
         <div class="col-sm-12 col-md-4 find">
             <h3> FIND US ON</h3>
@@ -190,11 +190,17 @@
                 <div class="row">
                   <h4>Newsletter</h4> 
                   <p>SIGN UP FOR SPECIAL OFFERS</p>
-                  <form class="mb-2">
-                    <label for="inputEmail" class="visually-hidden">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                    <button class="btn subscribe text-white mt-2">SUBSCRIBE</button>
-                  </form>
+                  <form class="needs-validation align-items-center text-start" novalidate>
+                    <div class=" d-flex align-items-center mb-4" >
+
+                            <input type="email" id="email" class="form-control" placeholder="Enter Email"required />
+                            <label class="form-label" for="email"></label>
+                            <div class="valid-feedback">Valid</div>
+                            <div class="invalid-feedback">Invalid Email</div>
+                       
+                        <button type="submit" class="btn subscribe text-white mx-2 " id="subscribebtn" onclick="myFunction()" >Send</button>
+                    </div>
+               </form>
                 </div>
         </div>
       </div>
