@@ -13,68 +13,118 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="hrlogo.png" sizes="16x16">
-    <title>Accommodation | Spring Ruin - Public Resort in Guinobatan </title>
+    <link rel="icon" type="image/png" href="/img/favicon.svg">
+
+  
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha384-XXXXXXXXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.min.js" integrity="sha512-muIw++bVJjKtL9wj0A+HlGJrV7aE+ZCV5P8w5zk5E+1f3sk3qWtx9NnCzFyPKwq3hv8wtB/3sBZohsXZSSW/Ew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+      <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-eEF27A5j3qg3dd9LWdwkD/ErK7FYQd/2c8FV6/RwU6RnPd2bIaqOYiKz/eDfZZucSMp3qOgLJXYe0POsDh4ag==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Spring Ruin | Accommodation  </title>
+    
+
 </head>
 
 <body>
     <div>
-      <!--Navigation-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-1">
-        <div class="container">
-            <a class="navbar-brand p-0" href="index.html"><img class ="img-logo" src="../MiniProject01/hrlogo.png" alt="Haru~Ruin Spring Resort Logo"></img></a>
-            <button class="navbar-toggler nav-toggle bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">MENU
-                <span class="navbar-toggler-icon "></span>
-            </button>
-
-            <div class="collapse navbar-collapse navv " id="navbarNav">
-                <div class="mx-auto"></div>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="accommodation.html">Accommodation</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="rates.html">Rates & Offers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="location.html">Location</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="FAQ.html">FAQ</a>
-                    </li>
+        <!--Navigation-->
+          <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-1">
+           <div class="container bg-white rounded mt-3 justify-content-between">
+              <div>
+                  <a class="navbar-brand p-0" href="index.html"><img class="img-logo w-100 m-2 ps-2"
+                      src="img/logo.svg" alt="Haru~Ruin Spring Resort Logo" height="50px"></img></a>
+              </div>
+        <button class="navbar-toggler nav-toggle bg-transparent" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+    
+        <div class="collapse navbar-collapse ms-5 justify-content-center pe-3" id="navbarNav">
+    
+          <ul class="navbar-nav px-5">
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false" href="accommodation.html" >
+                Accommodation
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Rooms</a></li>
+                <hr class="dropdown-divider my-0">
+                <li><a class="dropdown-item" href="#">Cottages</a></li>
+                <hr class="dropdown-divider my-0">
+                <li><a class="dropdown-item" href="#">Pavillions</a></li>
+                
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false" href="pages/services.html">Services </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink2">
+                  <li><a class="dropdown-item" href="#">Restaurant</a></li>
+                  <hr class="dropdown-divider my-0">
+                  <li><a class="dropdown-item" href="#">Meeting Room</a></li>
+                  <hr class="dropdown-divider my-0">
+                  <li><a class="dropdown-item" href="#">Events & Weddings</a></li>
+                  
                 </ul>
-            </div>
+            </li>
+    
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fw-bold" href="FAQ.html">FAQ</a>
+            </li>
+          </ul>
         </div>
-    </nav>
-</div>
+    
+        <div class="navbar-nav ">
+          <Button class="btn btn-danger button-reserve text-white fw-bold px-2 py-2 me-3 text-uppercase"
+            onclick="document.location='contact.html'">Reservation</Button>
+        </div>
+      </div>
+          </nav>
+    
+      </div>
      <!-- Banner Image  -->
      <div id="carouselExampleFade" class="carousel slide acc-carousel carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="../MiniProject01/img/1 (1).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption top-0 mt-4">
+                <img src="img/1 (1).jpg" class="d-block w-100" alt="...">
+                <div class="title-banner carousel-caption top-0 mt-4 ">
                     <p class="mt-4 fs-3 text-uppercase"></p>
-                    <p class="display-3 fw-semibold text-capitalize text-start">Accommodation</p>
+                    <p class="slide-down display-3 fw-semibold text-capitalize text-start ">Accommodation</p>
+                  
 
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../MiniProject01/img/1 (3).jpg" class="d-block w-100" alt="...">
+                <img src="img/1 (3).jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption top-0 mt-4">
                     <p class="mt-4 fs-3 text-uppercase"></p>
-                    <p class="display-3 fw-semibold text-capitalize text-start">Accommodation</p>
+                    <p class="slide-down display-3 fw-semibold text-capitalize text-start">Accommodation</p>
 
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="../MiniProject01/img/3 (1).jpg" class="d-block w-100" alt="...">
-                <div class="carousel-caption top-0 mt-4">
+                <img src="img/3 (1).jpg" class="d-block w-100" alt="...">
+                <div class="title-banner carousel-caption top-0 mt-4 ">
                     <p class="mt-4 fs-3 text-uppercase"></p>
-                    <p class="display-3 fw-semibold text-capitalize text-start">Accommodation</p>
+                    <p class="slide-down display-3 fw-semibold text-capitalize text-start ">Accommodation</p>
+                  
+
                 </div>
             </div>
         </div>
@@ -92,127 +142,505 @@
        <!-- Main Content Area -->
 
        <div class="container my-5 gap-5">
-
-
-        <!--try-->
-        <div class="row g-6 py-4">
-         <div class="col ">
-            
-          
-         <!--get-->
-         
-         <div class="row accommodation order-1 order-lg-1">
-             <div class="col-md-6  border mt-4 ">
-                 <div class="project-image-wrapper">
-                     <img class=" project-image d-block w-100" src="../MiniProject01/img/amentities.jpg"
-                         class="project-image d-block w-100">
-                     <h4> Amenities</h4>
-                     <button class="btn px-4 py-2"><a class="nav-link text-white" href="amenities.html">VIEW AMENITIES</a></button>
-                 </div>
-             </div>
-             <div class="col border mt-4 mx-4">
-                 <div class="about-us text-center">
- 
-                     <div class="mt-5 pt-2 ">
-                         <h3>HARU~RUIN SPRINGS AMENITIES</h3>
-                         <p>for morning</p>
-                         <p> (4 rooms including Pavilions)</p>
-                         <p> Check-in time: 7:00 am</p>
-                         <p> Check-out time: 6:00 pm</p>
-                         <p> for overnight </p>
-                         <p> Check-in time: 6:00 pm</p>
-                         <p> Check-out time: 6:00 am</p>
- 
-                     </div>
-                 </div>
- 
-             </div>   
-         </div>
-         <div class="row accommodation order-1 order-lg-1">
-             <div class="col-md-6 border mt-4 ">
-                 <div class="project-image-wrapper">
-                     <img class=" project-image d-block w-100" src="../MiniProject01/img/cottages 1.jpg"
-                         class="project-image d-block w-100">
-                     <h4> Cottages</h4>
-                     <button class="btn px-4 py-2"> <a class="nav-link text-white" href="cottage.html">VIEW COTTAGES</a></button>
-                 </div>
-             </div>
-             <div class="col border mt-4 mx-4">
-                 <div class="about-us text-center">
- 
-                     <div class="mt-5 pt-3 ">
-                         <h3 >HARU~RUIN SPRINGS COTTAGES</h3>
-                         <p>for morning</p>
-                         <p> (8 cottages)</p>
-                         <p> Check-in time: 7:00 am</p>
-                         <p> Check-out time: 6:00 pm</p>
-                         <p> for overnight </p>
-                         <p> Check-in time: 6:00 pm</p>
-                         <p> Check-out time: 6:00 am</p>
-                     </div>
-                 </div>
- 
-             </div>   
-         </div>
-         </div>
-        </div>
- </div>
- 
-
- <!--contacts-->   
-      <hr>
-  <div class="container-fluid contact-us text-white pt-2">
-    <div class="container text-center ">
-      <div class="row">
-        <div class="col-sm-12 col-md-4">
-            <h3> LOCATION</h3>
-            <p>Haru~Ruin Springs is the hidden farm Resort, located in municipal of Guinobatan barangay Muladbucad Guinobatan, Albay. We pride ourselves in the various amenities we offer and in the cleanliness, comfort, and security of our resorts.</p>
-        </div>
-        <div class="col-sm-12 col-md-4">
-            <h3> CONTACT</h3>
-            <p>
-                GLOBE - 0977 616 2529 <br>
-                SMART - 0981 399 2301 <br>
-                info@haruruinspring.com
-              </p>
-        </div>
-        <div class="col-sm-12 col-md-4 find">
-            <h3> FIND US ON</h3>
-                <div>
-                    <ul>
-                  <li> <a href="#"><i class="bi-facebook " style="color: white"></i></a></li> 
-                  <li>  <a href="#"><i class="bi-instagram"  style="color: white"></i> </a></li>
-                  <li>  <a href="#"><i class="bi-twitter"  style="color: white"></i> </a></li>
-                  <li>  <a href="#"><i class="bi- bi-pinterest"  style="color: white"></i> </a></li>
-                  <li>  <a href="#"><i class="bi-youtube"  style="color: white"></i> </a></li>
-                </ul>
+     <!--Amenities--->
+    
+<section id = "collection" class = "acc-section py-5 mx-5">
+    <div class = "container">
+        
+        <h2 class="section__subtitle  fw-small text-uppercase">Service since 2021</h2>
+        <hr class="my-3" style="width: 50px; margin: 0 auto; ">
+        <div class="text mx-3">
+        <p class="text-muted px-3 text-center"> Our objective at Spring Ruin is to bring together our visitor's societies and spirits with our own, communicating enthusiasm
+            and liberality in the food we share. Official Chef and Owner Philippe Massoud superbl.</p>
                 </div>
-                <div class="row">
-                  <h4>Newsletter</h4> 
-                  <p>SIGN UP FOR SPECIAL OFFERS</p>
-                  <form class="needs-validation align-items-center text-start" novalidate>
-                    <div class=" d-flex align-items-center mb-4" >
+        <div class = "row g-0">
+            <div class = "d-flex flex-wrap justify-content-center mt-5  filter-button-group">
+                <button type = "button" class = "btn theme-btn btn-style-three p-2 mx-3 my-2 text-dark active-filter-btn" data-filter = "*">All</button>
+                <button type = "button" class = "btn theme-btn btn-style-three p-2 mx-3 my-2 text-dark" data-filter = ".best">Rooms</button>
+                <button type = "button" class = "btn theme-btn btn-style-three p-2 mx-3 my-2 text-dark" data-filter = ".feat">Cottages</button>
+                <button type = "button" class = "btn theme-btn btn-style-three p-2 mx-3 my-2 text-dark" data-filter = ".new">Pavillions</button>
+            </div>
 
-                            <input type="email" id="email" class="form-control" placeholder="Enter Email"required />
-                            <label class="form-label" for="email"></label>
-                            <div class="valid-feedback">Valid</div>
-                            <div class="invalid-feedback">Invalid Email</div>
-                       
-                        <button type="submit" class="btn subscribe text-white mx-2 " id="subscribebtn" onclick="myFunction()" >Send</button>
+            <div class = "collection-list mt-4 row gx-0 gy-3">
+                <div class = "col-md-6 col-lg-4 col-xl-6 p-2 best">
+                        <div class="inner-box ">
+                            <div class="image">
+                                <img src="img/amentities.jpg" class="w-100" alt="">
+                            </div>
+                            <div class="content">
+                                <h3>Cozy Room</h3>
+                                <div class="text-two">
+                                    Price 1500
+                                </div>
+                            </div>
+                        </div>
+                       <div>
+                        <table>
+                            <tbody>
+                              
+                                <th class="my-2 py-2 h4">Cozy Room</th>
+                                <tr class="pe-5 p-2 d-block d-flex">
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                        <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-bed-grey.svg" class="w-100" height="35px" alt="">
+                                       </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">2</span>beds</p>
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                       <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/wp-content/uploads/2017/07/icon-10.png" class="w-100" height="35px" alt="">
+                                       </div>
+                                       
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">1</span>Bathroom</p>
+                                        
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                        <div class="pe-3">
+                                          <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-plan-grey.svg"
+                                        class="w-100" height="30px" alt="">
+                                         
+                                        </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">1</span>Bathroom</p>
+                                        
+                                        </div>
+                                    </td> 
+                                </tr>
+                                
+                                <tr class="top-0">
+                                    <td>
+                                        Our objective at Spring Haru is to bring together our visitor’s societies and spirits with our own, communicating ...</td>
+                                </tr>
+                                <td>
+                                 <button class="btn btn-danger"> Book now</button>
+                                </td>
+                            </tbody>
+                        </table>
+                       </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-6 p-2 new">
+                    <div class="inner-box ">
+                        <div class="image">
+                            <img src="img/amentities 2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Deluxe Cottages</h3>
+                            <div class="text-two">
+                                Price 1500
+                            </div>
+                        </div>
                     </div>
-               </form>
+                    <div>
+                        <table>
+                            <tbody>
+                              
+                                <th class="my-2 py-2 h4">Cozy Room</th>
+                                <tr class="pe-5 p-2 d-block d-flex">
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                        <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-bed-grey.svg" class="w-100" height="35px" alt="">
+                                       </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">2</span>beds</p>
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                       <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/wp-content/uploads/2017/07/icon-10.png" class="w-100" height="35px" alt="">
+                                       </div>
+                                       
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">1</span>Bathroom</p>
+                                        
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                        <div class="pe-3">
+                                          <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-plan-grey.svg"
+                                        class="w-100" height="30px" alt="">
+                                         
+                                        </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">90</span> m2</p>
+                                        
+                                        </div>
+                                    </td> 
+                                </tr>
+                                <tr class="top-0">
+                                    <td>
+                                        Our objective at Spring Haru is to bring together our visitor’s societies and spirits with our own, communicating ...</td>
+                                </tr>
+                                <td>
+                                 <button class="btn btn-danger"> Book now</button>
+                                </td>
+                                
+                            </tbody>
+                        </table>
+                       </div>
                 </div>
+                <div class = "col-md-6 col-lg-4 col-xl-6 p-2 new">
+                    <div class="inner-box ">
+                        <div class="image">
+                            <img src="img/amentities 2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Deluxe Cottages</h3>
+                            <div class="text-two">
+                                Price 1500
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <table>
+                            <tbody>
+                              
+                                <th class="my-2 py-2 h4">Cozy Room</th>
+                                <tr class="pe-5 p-2 d-block d-flex">
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                        <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-bed-grey.svg" class="w-100" height="35px" alt="">
+                                       </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">2</span>beds</p>
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                       <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/wp-content/uploads/2017/07/icon-10.png" class="w-100" height="35px" alt="">
+                                       </div>
+                                       
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">1</span>Bathroom</p>
+                                        
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                        <div class="pe-3">
+                                          <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-plan-grey.svg"
+                                        class="w-100" height="30px" alt="">
+                                         
+                                        </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">90</span> m2</p>
+                                        
+                                        </div>
+                                    </td> 
+                                </tr>
+                                <tr class="top-0">
+                                    <td>
+                                        Our objective at Spring Haru is to bring together our visitor’s societies and spirits with our own, communicating ...</td>
+                                </tr>
+                                <td>
+                                 <button class="btn btn-danger"> Book now</button>
+                                </td>
+                                
+                            </tbody>
+                        </table>
+                       </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-6 p-2 best">
+                    <div class="inner-box ">
+                        <div class="image">
+                            <img src="img/amentities 2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Deluxe Cottages</h3>
+                            <div class="text-two">
+                                Price 1500
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <table>
+                            <tbody>
+                              
+                                <th class="my-2 py-2 h4">Cozy Room</th>
+                                <tr class="pe-5 p-2 d-block d-flex">
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                        <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-bed-grey.svg" class="w-100" height="35px" alt="">
+                                       </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">2</span>beds</p>
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                       <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/wp-content/uploads/2017/07/icon-10.png" class="w-100" height="35px" alt="">
+                                       </div>
+                                       
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">1</span>Bathroom</p>
+                                        
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                        <div class="pe-3">
+                                          <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-plan-grey.svg"
+                                        class="w-100" height="30px" alt="">
+                                         
+                                        </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">90</span> m2</p>
+                                        
+                                        </div>
+                                    </td> 
+                                </tr>
+                                <tr class="top-0">
+                                    <td>
+                                        Our objective at Spring Haru is to bring together our visitor’s societies and spirits with our own, communicating ...</td>
+                                </tr>
+                                <td>
+                                 <button class="btn btn-danger"> Book now</button>
+                                </td>
+                                
+                            </tbody>
+                        </table>
+                       </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-6 p-2 feat">
+                    <div class="inner-box ">
+                        <div class="image">
+                            <img src="img/amentities 2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Deluxe Cottages</h3>
+                            <div class="text-two">
+                                Price 1500
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <table>
+                            <tbody>
+                              
+                                <th class="my-2 py-2 h4">Cozy Room</th>
+                                <tr class="pe-5 p-2 d-block d-flex">
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                        <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-bed-grey.svg" class="w-100" height="35px" alt="">
+                                       </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">2</span>beds</p>
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                       <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/wp-content/uploads/2017/07/icon-10.png" class="w-100" height="35px" alt="">
+                                       </div>
+                                       
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">1</span>Bathroom</p>
+                                        
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                        <div class="pe-3">
+                                          <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-plan-grey.svg"
+                                        class="w-100" height="30px" alt="">
+                                         
+                                        </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">90</span> m2</p>
+                                        
+                                        </div>
+                                    </td> 
+                                </tr>
+                                <tr class="top-0">
+                                    <td>
+                                        Our objective at Spring Haru is to bring together our visitor’s societies and spirits with our own, communicating ...</td>
+                                </tr>
+                                <td>
+                                 <button class="btn btn-danger"> Book now</button>
+                                </td>
+                                
+                            </tbody>
+                        </table>
+                       </div>
+                </div>
+                <div class = "col-md-6 col-lg-4 col-xl-6 p-2 feat">
+                    <div class="inner-box ">
+                        <div class="image">
+                            <img src="img/amentities 2.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Deluxe Cottages</h3>
+                            <div class="text-two">
+                                Price 1500
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <table>
+                            <tbody>
+                              
+                                <th class="my-2 py-2 h4">Cozy Room</th>
+                                <tr class="pe-5 p-2 d-block d-flex">
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                        <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-bed-grey.svg" class="w-100" height="35px" alt="">
+                                       </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">2</span>beds</p>
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                       <div class="pe-3">
+                                       <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/wp-content/uploads/2017/07/icon-10.png" class="w-100" height="35px" alt="">
+                                       </div>
+                                       
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">1</span>Bathroom</p>
+                                        
+                                        </div>
+                                    </td>
+                                    <td class="d-flex ">
+                                        <div class="pe-3">
+                                          <img src="http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/plugins/nd-booking/assets/img/icons/icon-plan-grey.svg"
+                                        class="w-100" height="30px" alt="">
+                                         
+                                        </div>
+                                        <div class="mt-1 d-block">
+                                            <p class="h6 text-muted"><span class="pe-2">90</span> m2</p>
+                                        
+                                        </div>
+                                    </td> 
+                                </tr>
+                                <tr class="top-0">
+                                    <td>
+                                        Our objective at Spring Haru is to bring together our visitor’s societies and spirits with our own, communicating ...</td>
+                                </tr>
+                                <td>
+                                 <button class="btn btn-danger"> Book now</button>
+                                </td>
+                                
+                            </tbody>
+                        </table>
+                       </div>
+                </div>
+         
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-    <footer class="py-3 bg-white">
-        <div class="container ">
-                <div class="col text-center">
-                    <p class="mb-0 ">©2022 Haru~Ruin Spring Resort. All Right Reserved</p>
-                </div>
+</section> 
+<!-- end of collection -->
+
+
+      
         </div>
-      </footer>
+ 
+
+ <hr>
+ <div class="container-fluid contact-us text-white pt-2">
+     <div class="container  ">
+         <div class="row mt-3 ">
+             <div class="col-xl-4 col-sm-12 col-md-6 find text-start">
+                 <div class="text-start"><img src="img/logo.png" alt="" class="pb-3" >
+                 </div>
+                 <table>
+                     <tbody>
+                         <tr class="pe-5 pb-5">
+                             <td >
+                                 Phone:
+                             </td>
+                                 <td>
+                                 09776162529
+                             </td>
+                         </tr>
+                         
+                         <tr class="pe-5 pb-5">
+                             <td >
+                               Email
+                             </td>
+                                 <td>
+                              springharu@gmail.com
+                             </td>
+                         </tr>
+                         <tr class="pe-5 pb-5">
+                             <td >
+                            Location:
+                             </td>
+                                 <td>
+                                 235, Santuary Barangay Muladbucad Guinobatan, Albay. 
+                             </td>
+                         </tr>
+                     </tbody>
+                 </table>
+             </div>
+             <div class="col-xl-2 col-sm-12 col-md-6 text-start ">
+               <div class="nav-menu position-relative">
+                     <div class="text-start">
+                         <p class="h3 pb-3">Quick Links</p>
+                     </div>
+                         <ul>
+                             <li>Home</li>
+                             <li>Accommodation</li>
+                             <li>Rates</li>
+                             <li>Contact</li>
+                             <li>FAQ</li>
+                         </ul>
+
+                 </div>
+             </div>
+             <div class="col-xl-3 col-sm-12 col-md-6 find ">
+                  <div class="nav-menu position-relative">
+                     <div class="text-start pb-3">
+                         <p class="h3 ">Connect With Us</p>
+                         <p class=""> SOCIAL MEDIA CHANNELS </p>
+                     </div>
+                     <ul>
+                         <li> <a href="#"><i class="bi-facebook " style="color: white"></i></a></li>
+                         <li> <a href="#"><i class="bi-instagram" style="color: white"></i> </a></li>
+                         <li> <a href="#"><i class="bi-twitter" style="color: white"></i> </a></li>
+                         <li> <a href="#"><i class="bi- bi-pinterest" style="color: white"></i> </a></li>
+                         <li> <a href="#"><i class="bi-youtube" style="color: white"></i> </a></li>
+                     </ul>
+
+
+
+                 </div>
+             </div>
+             <div class="col-xl-3 col-sm-12 col-md-6 find text-start">
+                 <div class="text-start">
+                     <p class="h3 ">Newsletter</p>
+                     <p class=""> SIGN UP FOR SPECIAL OFFERS </p>
+                 </div>
+                 <div class="position-relative">
+                     <form
+                     class="needs-validation align-items-center text-start form-text-margin-top:                  .25rem"
+                     novalidate>
+                     <div class=" d-flex align-items-center mb-4">
+
+                         <input type="email" id="email" class="form-control " placeholder="Email" required />
+                         <label class="form-label" for="email"></label>
+                         <div class="valid-feedback">Valid</div>
+                         <div class="invalid-feedback">Invalid Email</div>
+
+                         <button type="submit" class="btn subscribe text-white " id="subscribebtn"
+                             onclick="myFunction()">Subscribe</button>
+                     </div>
+                 </form>
+                 </div>
+                 
+               
+             </div>
+         </div>
+     </div>
+ </div>
+ <footer class="py-3 bg-white">
+     <div class="container ">
+         <div class="col text-center">
+             <p class="mb-0 ">©2022 Haru~Ruin Spring Resort. All Right Reserved</p>
+         </div>
+     </div>
+ </footer>
     <script src="js/bootstraple.min.js"></script>
     <script type="text/javascript">
       var nav = document.querySelector('nav');
@@ -227,6 +655,23 @@
       });
     </script>
     
+  
+
+    <!--jquery-->
+    <script src="assets/js/jquery-3.6.3.js"></script>
+
+    <!---isotope js----->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+
+    <!--custom JS-->
+    <script src = "assets/js/script.js"></script> 
+
+
+    <!-- Main js -->
+    <script src="main.js"></script>
+    <script src="index.js"></script>
+   
 </body>
 
 </html>
