@@ -650,7 +650,7 @@ hr {
 }
 
 .check-availability {
-    background-image: url("http://www.nicdarkthemes.com/themes/hotel/wp/demo/chalet-wordpress-theme/wp-content/uploads/sites/7/2017/09/parallax8.jpg");
+    background-image: url("https://img.freepik.com/premium-photo/grunge-wood-panels-texture_174699-4.jpg?w=1060");
     color:#fff;
     padding: 20px;
     /* margin: 10px; */
@@ -658,6 +658,9 @@ hr {
     background-position: right;
 }
 
+.check-availability:hover {
+  color:#d7a449;
+}
 /* accommodation */
 
 .section__subtitle {
