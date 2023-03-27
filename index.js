@@ -42,3 +42,34 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
       }
   }
 });
+
+// nav.responsive
+const mediaQuery = window.matchMedia('(max-width: 768px)');
+
+function handleTabletChange(e) {
+  const navToggle = document.querySelector('.js-nav-toggle');
+  if (e.matches) {
+    navToggle.classList.add('js-nav-toggle');
+  } else {
+    navToggle.classList.remove('js-nav-toggle');
+  }
+}
+
+mediaQuery.addEventListener('change', handleTabletChange);
+handleTabletChange(mediaQuery);
+
+// part2
+const navToggle = document.querySelector('.js-nav-toggle');
+const dropdownMenuItems = document.querySelectorAll('.dropdown-item');
+
+navToggle.addEventListener('click', function () {
+  const navbarNav = document.querySelector('#navbarNav');
+  navbarNav.classList.toggle('show');
+});
+
+dropdownMenuItems.forEach(function (item) {
+  item.addEventListener('click', function () {
+    const dropdownMenu = item.closest('.dropdown-menu');
+    dropdownMenu.classList.remove('show');
+  });
+});
