@@ -4,7 +4,7 @@ const videoOverlay = document.querySelector("#video-overlay")
 player.addEventListener("click", function (e) {
   e.preventDefault();
   videoOverlay.classList.add("open")
-  videoOverlay.innerHTML += '<iframe src="https://gatoledo.com/proj-codepen/earth.mp4" width="853" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
+  videoOverlay.innerHTML += '" width="853" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>';
 })
 
 videoOverlay.addEventListener("click", function (e) {
