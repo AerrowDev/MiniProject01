@@ -36,74 +36,73 @@
 </head>
 
 <body>
-   
-    <div>
-        <!--Navigation-->
-          <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-1">
-           <div class="container bg-white rounded mt-3 justify-content-between">
-              <div>
-                  <a class="navbar-brand p-0" href="index.html"><img class="img-logo w-100 m-2 ps-2"
-                      src="img/logo.svg" alt="Haru~Ruin Spring Resort Logo" height="50px"></img></a>
-              </div>
-       <button class="navbar-toggler nav-toggle bg-transparent" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button> 
-        
-          
-          
-    
-        <div class="collapse navbar-collapse ms-5 justify-content-center pe-3" id="navbarNav">
-    
-          <ul class="navbar-nav px-5">
-            <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false" href="accommodation.html" >
-                Accommodation
-              </a>
-              <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Rooms</a></li>
-                <hr class="dropdown-divider my-0">
-                <li><a class="dropdown-item" href="#">Cottages</a></li>
-                <hr class="dropdown-divider my-0">
-                <li><a class="dropdown-item" href="#">Pavillions</a></li>
-                
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false" href="services.html">Services </a>
-              <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink2">
-                  <li><a class="dropdown-item" href="#">Restaurant</a></li>
-                  <hr class="dropdown-divider my-0">
-                  <li><a class="dropdown-item" href="#">Meeting Room</a></li>
-                  <hr class="dropdown-divider my-0">
-                  <li><a class="dropdown-item" href="#">Events & Weddings</a></li>
-                  
+
+
+    <!--Navigation-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-1">
+        <div class="container bg-white rounded mt-3 justify-content-between">
+            <div>
+                <a class="navbar-brand p-0" href="index.html"><img class="img-logo w-100 m-2 ps-2" src="img/logo.svg"
+                        alt="Haru~Ruin Spring Resort Logo" height="50px"></img></a>
+            </div>
+            <button class="navbar-toggler nav-toggle bg-transparent" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse ms-5 justify-content-center pe-3" id="navbarNav">
+
+                <ul class="navbar-nav px-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false"
+                            href="accommodation.html">
+                            Accommodation
+                        </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Rooms</a></li>
+                            <hr class="dropdown-divider my-0">
+                            <li><a class="dropdown-item" href="#">Cottages</a></li>
+                            <hr class="dropdown-divider my-0">
+                            <li><a class="dropdown-item" href="#">Pavillions</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false"
+                            href="services.html">Services </a>
+                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink2">
+                            <li><a class="dropdown-item" href="restaurant.html">Restaurant</a></li>
+                            <hr class="dropdown-divider my-0">
+                            <li><a class="dropdown-item" href="#">Meeting Room</a></li>
+                            <hr class="dropdown-divider my-0">
+                            <li><a class="dropdown-item" href="#">Events & Weddings</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark fw-bold" href="FAQ.html">FAQ</a>
+                    </li>
                 </ul>
-            </li>
-    
-            <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-dark fw-bold" href="FAQ.html">FAQ</a>
-            </li>
-          </ul>
+            </div>
+
+            <div class="navbar-nav ms-5 ps-5">
+                <Button class="btn btn-danger button-reserve text-white fw-bold px-2 py-2 me-3 text-uppercase"
+                    onclick="document.location='contact.html'"> Reservation </Button>
+            </div>
         </div>
-    
-        <div class="navbar-nav ">
-          <Button class="btn btn-danger button-reserve text-white fw-bold px-2 py-2 me-3 text-uppercase"
-            onclick="document.location='contact.html'"> Reservation </Button>
-        </div>
-      </div>
-          </nav>
-    
-      </div>
-     
-      
+    </nav>
+
+
+
+
     <!-- Banner Image  -->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner ">
@@ -198,7 +197,7 @@
 
     </div>
 
-<!-- check-availability -->
+    <!-- check-availability -->
     <div class="container check-avail">
         <div class="auto-container">
             <div class="form border-shape-top">
@@ -228,7 +227,8 @@
 
 
                     <div class="col-lg-3 col-md-3 col-sm-12  px-4 pt-4">
-                        <button type="button" class="btn check-availability px-2" onclick="window.location.href='accommodation.html';">Check Availability</button>
+                        <button type="button" class="btn check-availability px-2"
+                            onclick="window.location.href='accommodation.html';">Check Availability</button>
                     </div>
 
 
@@ -529,7 +529,8 @@
                     <div class="image-column col-md-6 col-sm-12 col-xs-12">
                         <div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
                             <div class="image">
-                                <img src="https://img.freepik.com/premium-photo/restaurant-ingredient-food-group-women-spend-time-people-eating-roast-pork_724662-5581.jpg?w=360" alt="Testimonial Review Photo">
+                                <img src="https://img.freepik.com/premium-photo/restaurant-ingredient-food-group-women-spend-time-people-eating-roast-pork_724662-5581.jpg?w=360"
+                                    alt="Testimonial Review Photo">
                                 <div class="content">
                                     <h3>Recent Review</h3>
 
@@ -558,55 +559,65 @@
         <div class="container  ">
             <div class="row mt-3 ">
                 <div class="col-xl-4 col-sm-12 col-md-6 find text-start">
-                    <div class="text-start"><img src="img/logo.png" alt="" class="pb-3" >
+                    <div class="text-start"><img src="img/logo.png" alt="" class="pb-3">
                     </div>
                     <table>
                         <tbody>
                             <tr class="pe-5 pb-5">
-                                <td >
+                                <td>
                                     Phone:
                                 </td>
-                                    <td>
+                                <td>
                                     09776162529
                                 </td>
                             </tr>
-                            
+
                             <tr class="pe-5 pb-5">
-                                <td >
-                                  Email
+                                <td>
+                                    Email
                                 </td>
-                                    <td>
-                                 springharu@gmail.com
+                                <td>
+                                    springharu@gmail.com
                                 </td>
                             </tr>
                             <tr class="pe-5 pb-5">
-                                <td >
-                               Location:
+                                <td>
+                                    Location:
                                 </td>
-                                    <td>
-                                    235, Santuary Barangay Muladbucad Guinobatan, Albay. 
+                                <td>
+                                    235, Santuary Barangay Muladbucad Guinobatan, Albay.
                                 </td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div class="col-xl-2 col-sm-12 col-md-6 text-start ">
-                  <div class="nav-menu position-relative">
+                    <div class="nav-menu position-relative">
                         <div class="text-start">
                             <p class="h3 pb-3">Quick Links</p>
                         </div>
-                            <ul>
-                               <a href="index.html" class="text-decoration-none text-white"> <li>Home</li></a>
-                               <a href="index.html" class="text-decoration-none text-white"><li>Accommodation</li></a>
-                                <a href="index.html" class="text-decoration-none text-white"> <li>Services</li></a>
-                                <a href="index.html" class="text-decoration-none text-white"><li>Contact</li></a>
-                                <a href="index.html" class="text-decoration-none text-white"> <li>FAQ</li></a>
-                            </ul>
-   
+                        <ul>
+                            <a href="index.html" class="text-decoration-none text-white">
+                                <li>Home</li>
+                            </a>
+                            <a href="index.html" class="text-decoration-none text-white">
+                                <li>Accommodation</li>
+                            </a>
+                            <a href="index.html" class="text-decoration-none text-white">
+                                <li>Services</li>
+                            </a>
+                            <a href="index.html" class="text-decoration-none text-white">
+                                <li>Contact</li>
+                            </a>
+                            <a href="index.html" class="text-decoration-none text-white">
+                                <li>FAQ</li>
+                            </a>
+                        </ul>
+
                     </div>
                 </div>
                 <div class="col-xl-3 col-sm-12 col-md-6 find ">
-                     <div class="nav-menu position-relative">
+                    <div class="nav-menu position-relative">
                         <div class="text-start pb-3">
                             <p class="h3 ">Connect With Us</p>
                             <p class=""> SOCIAL MEDIA CHANNELS </p>
@@ -618,9 +629,9 @@
                             <li> <a href="#"><i class="bi- bi-pinterest" style="color: white"></i> </a></li>
                             <li> <a href="#"><i class="bi-youtube" style="color: white"></i> </a></li>
                         </ul>
-   
-   
-   
+
+
+
                     </div>
                 </div>
                 <div class="col-xl-3 col-sm-12 col-md-6 find text-start">
@@ -630,22 +641,22 @@
                     </div>
                     <div class="position-relative">
                         <form
-                        class="needs-validation align-items-center text-start form-text-margin-top:                  .25rem"
-                        novalidate>
-                        <div class=" d-flex align-items-center mb-4">
-   
-                            <input type="email" id="email" class="form-control " placeholder="Email" required />
-                            <label class="form-label" for="email"></label>
-                            <div class="valid-feedback">Valid</div>
-                            <div class="invalid-feedback">Invalid Email</div>
-   
-                            <button type="submit" class="btn subscribe text-white " id="subscribebtn"
-                                onclick="myFunction()">Subscribe</button>
-                        </div>
-                    </form>
+                            class="needs-validation align-items-center text-start form-text-margin-top:                  .25rem"
+                            novalidate>
+                            <div class=" d-flex align-items-center mb-4">
+
+                                <input type="email" id="email" class="form-control " placeholder="Email" required />
+                                <label class="form-label" for="email"></label>
+                                <div class="valid-feedback">Valid</div>
+                                <div class="invalid-feedback">Invalid Email</div>
+
+                                <button type="submit" class="btn subscribe text-white " id="subscribebtn"
+                                    onclick="myFunction()">Subscribe</button>
+                            </div>
+                        </form>
                     </div>
-                    
-                  
+
+
                 </div>
             </div>
         </div>
@@ -705,7 +716,7 @@
     <script src="index.js"></script>
 
 
-    
+
 </body>
 
 </html>
