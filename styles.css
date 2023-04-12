@@ -14,7 +14,23 @@ body {
 
 /* 
 preload */
+  #preloader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 10000;
+    overflow: hidden;
+  }
 
+  .preloader-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 /* 
 preload end */
@@ -25,6 +41,7 @@ preload end */
     height: 96px;
     padding: 0;
 } */
+
 .navbar-collapse .navbar-nav {
     /* background-color: rgba(0, 0, 0, 0.4); */
     border-color: transparent;
@@ -63,7 +80,11 @@ preload end */
   display: none;
 }
 
-
+.carousel-item {
+  display: grid;
+  place-items: center;
+  align-content: c;
+}
 
 .carousel-slide .carousel-inner .carousel-item img {
     width: 100%;
@@ -618,7 +639,7 @@ border-top-right-radius: 8px
 
 .booking-date{
   position: relative;
-  z-index: 99;
+  z-index: 4;
   background: #ffffff;
   padding: 25px 30px 15px 35px;
   filter: drop-shadow(0px 13px 35px rgba(0,0,0,0.08));

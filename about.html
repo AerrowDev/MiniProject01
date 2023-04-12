@@ -15,75 +15,70 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="img/favicon.svg" sizes="16x16">
   <title> Spring Ruin | About </title>
+  <script defer src="assets/js/preloader.js"></script>
 </head>
 
 <body>
-  <div>
+
+  <div id="preloader">
+    <div class="preloader-logo">
+      <img src="img/logo.svg"  width= "1000" height="80" alt="pre-loader">
+    </div>
+  </div>
     <!--Navigation-->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-1">
-       <div class="container bg-white rounded mt-3 justify-content-between">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-1">
+      <div class="container bg-white rounded mt-3 justify-content-between">
           <div>
-              <a class="navbar-brand p-0" href="index.html"><img class="img-logo w-100 m-2 ps-2"
-                  src="img/logo.svg" alt="Haru~Ruin Spring Resort Logo" height="50px"></img></a>
+              <a class="navbar-brand p-0" href="index.html"><img class="img-logo w-100 m-2 ps-2" src="img/logo.svg"
+                      alt="Haru~Ruin Spring Resort Logo" height="50px"></img></a>
           </div>
-   <button class="navbar-toggler nav-toggle bg-transparent" type="button" data-bs-toggle="collapse"
-      data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon "></span>
-    </button> 
-    
-      
-      
+          <button class="navbar-toggler nav-toggle bg-transparent" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+          </button>
 
-    <div class="collapse navbar-collapse ms-5 justify-content-center pe-3" id="navbarNav">
+          <div class="collapse navbar-collapse ms-5 justify-content-center pe-3" id="navbarNav">
 
-      <ul class="navbar-nav px-5">
-        <li class="nav-item">
-          <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false" href="accommodation.html" >
-            Accommodation
-          </a>
-          <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">Rooms</a></li>
-            <hr class="dropdown-divider my-0">
-            <li><a class="dropdown-item" href="#">Cottages</a></li>
-            <hr class="dropdown-divider my-0">
-            <li><a class="dropdown-item" href="#">Pavillions</a></li>
-            
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false" href="services.html">Services </a>
-          <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink2">
-              <li><a class="dropdown-item" href="#">Restaurant</a></li>
-              <hr class="dropdown-divider my-0">
-              <li><a class="dropdown-item" href="#">Meeting Room</a></li>
-              <hr class="dropdown-divider my-0">
-              <li><a class="dropdown-item" href="#">Events & Weddings</a></li>
-              
-            </ul>
-        </li>
+              <ul class="navbar-nav px-5">
+                  <li class="nav-item">
+                      <a class="nav-link text-dark fw-bold" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false"
+                          href="accommodation.html">
+                          Accommodation
+                      </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false"
+                          href="services.html">Services </a>
+                      <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink2">
+                          <li><a class="dropdown-item" href="restaurant.html">Restaurant</a></li>
+                          <hr class="dropdown-divider my-0">
+                          <li><a class="dropdown-item" href="#">Meeting Room</a></li>
+                          <hr class="dropdown-divider my-0">
+                          <li><a class="dropdown-item" href="#">Events & Weddings</a></li>
 
-        <li class="nav-item">
-          <a class="nav-link text-dark fw-bold" href="contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-dark fw-bold" href="FAQ.html">FAQ</a>
-        </li>
-      </ul>
-    </div>
+                      </ul>
+                  </li>
 
-    <div class="navbar-nav ">
-      <Button class="btn btn-danger button-reserve text-white fw-bold px-2 py-2 me-3 text-uppercase"
-        onclick="document.location='contact.html'"> Reservation </Button>
-    </div>
-  </div>
-      </nav>
+                  <li class="nav-item">
+                      <a class="nav-link text-dark fw-bold" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-dark fw-bold" href="FAQ.html">FAQ</a>
+                  </li>
+              </ul>
+          </div>
 
-  </div>
- 
+          <div class="navbar-nav ms-5 ps-5">
+              <Button class="btn btn-danger button-reserve text-white fw-bold px-2 py-2 me-3 text-uppercase"
+                  onclick="document.location='contact.html'"> Reservation </Button>
+          </div>
+      </div>
+  </nav>
+
   <!-- Banner Image  -->
   <div id="carouselExampleFade" class="carousel slide acc-carousel carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -230,37 +225,6 @@
 
       </section>
     </main>
-    <div class="container-fluid bg-light">
-<div class="container">
-      <div class="row g-6 py-4 ">
-    <div class="col-md-6 order-2 order-lg-2">
-<div class="about-us text-center">
-  
-  <div class="about-us-img">
-    <img src="../MiniProject01/img/amentities.jpg" class="d-block w-100 " alt="Haru Ruin Spring resort">
-     </div>
-     </div>
-   </div>
-   <div class="col-md-6 order-1 order-lg-1 ">
-    <div class="about-us">
-      <h3 class="mt-2 pt-5 mb-2 ">ABOUT US </h3>
-      <p>
-        Haru~Ruin Springs is the hidden farm Resort, located in municipal of Guinobatan barangay Muladbucad Guinobatan, Albay. We pride ourselves in the various amenities we offer and in the cleanliness, comfort, and security of our resorts.
-      </p>
-      <p>
-        Craving a quick and affordable getaway from the hustle and bustle of Bicol?
-Haru Ruin Springs Resort awaits you! We are conveniently located in Muladbucad Grande Guinobatan, Albay. Relax and submerge yourself in our exclusive spring pools, as they overlook the lush green mountains of Mount Mayon.
-
-
-      </p><p>Nestled in the heart of Muladbucad Grande, Haru~Ruin Spring Resort is surrounded by lush greenery, making it a great place to relax. Breathe in the fresh mountain air and enjoy the scenic views of the majestic Mt. Mayon.</p>
-      
-         
-      
-  </div>
-   </div>
-    </div>
-</div>
-</div>
   <!--contacts-->
   <hr>
   <div class="container-fluid contact-us text-white pt-2">

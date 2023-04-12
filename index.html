@@ -25,6 +25,7 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js'></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="function.js"></script>
+    <script defer src="assets/js/preloader.js"></script>
     <link rel="icon" type="image/png" href="img/favicon.svg">
     <title>Spring Ruin </title>
 
@@ -36,7 +37,11 @@
 </head>
 
 <body>
-
+    <div id="preloader">
+        <div class="preloader-logo">
+          <img src="img/logo.svg"  width= "1000" height="80" alt="pre-loader">
+        </div>
+      </div>
 
     <!--Navigation-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light p-md-1">
@@ -62,14 +67,6 @@
                             href="accommodation.html">
                             Accommodation
                         </a>
-                        <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Rooms</a></li>
-                            <hr class="dropdown-divider my-0">
-                            <li><a class="dropdown-item" href="#">Cottages</a></li>
-                            <hr class="dropdown-divider my-0">
-                            <li><a class="dropdown-item" href="#">Pavillions</a></li>
-
-                        </ul>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link text-dark fw-bold dropdown-toggle" role="button" aria-expanded="false"
@@ -99,9 +96,6 @@
             </div>
         </div>
     </nav>
-
-
-
 
     <!-- Banner Image  -->
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -242,7 +236,7 @@
     <div class="container my-5 gap-5">
 
         <!-- about section -->
-        <div class="container px-5">
+        <div class="container ">
             <section class="about-section px-5">
                 <div class="container">
                     <div class="row clearfix">
