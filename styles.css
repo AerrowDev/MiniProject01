@@ -86,6 +86,19 @@ preload end */
   align-content: c;
 }
 
+.carousel-item img {
+  animation: zoomIn 40s infinite;
+  animation-delay: 1s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes zoomIn {
+  from { transform: scale(1); }
+  to   { transform: scale(1.2) translate(-60px, -10px);}
+}
+
+
 .carousel-slide .carousel-inner .carousel-item img {
     width: 100%;
     height: 200px;
