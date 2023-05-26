@@ -743,9 +743,14 @@ hr {
 }
 
 .carousel-caption {
-    transform: translateY(80%);
+    transform: translateY(0%);
     bottom: initial;
     top: 30%;
+    
+   
+    /* display: flex; */
+    /* justify-content: center; 
+    align-items: center; */
 }
 
 .project-image-wrapper {
@@ -810,8 +815,8 @@ hr {
     display: none;
 }
 
-.text-watch{
-  top: -40px;
+.watch-text{
+  margin-top: -50px;
 }
 
   .slide-down{
@@ -823,6 +828,7 @@ hr {
   }
   
   .slide-right {
+    
     opacity: 0; /* start with the content hidden */
     animation-name: slide-right; /* specify the name of the animation */
     animation-duration: 1s; /* specify the duration of the animation */
@@ -859,6 +865,7 @@ hr {
     width: 50%;
     margin: 0;
   }
+
   
   .card-video {
     width: 80px;
@@ -874,7 +881,7 @@ hr {
     animation: animate-pulse 3s linear infinite;
     cursor: pointer;
     position: absolute;
-    left: 10%;
+    left: 5%;
     transform: translateX(-55%);
     bottom: -150px;
   }
@@ -1098,20 +1105,6 @@ li, ul{
   margin: 0px;
 }
 
-@media (max-width: 768px) {
-  
-  .nav-item {
-    padding-right: 5px;
-    padding-left: 5px;
-    height: 40px; 
-    border-right: 0px solid #d2d2d2;
-  }
-  .nav-item:hover .dropdown-menu {
-    display: none;
-  }
-  
-}
-
 
 
 @media screen and (max-width: 350px){
@@ -1126,7 +1119,23 @@ li, ul{
   display: none;
 }
 
+.img-logo {
+  height: 30px;
 }
+.card-video {
+  display: none;
+}
+
+}
+@media screen and (max-width: 678px){
+
+.card-video {
+ display: block;
+}
+
+}
+
+
 
   /* Add the following media query to adjust the slide-right width on smaller screens */
   @media (max-width: 768px) {
@@ -1141,31 +1150,70 @@ li, ul{
       padding-left: 5px;
       height: 40px; 
        border-right: 0px solid #d2d2d2;
+    }  
+    .nav-item:hover .dropdown-menu {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .title-banner .slide-right {
+      width: 100%;
+    }
+    .button-reserve{
+      display: none;
+     }
+     .nav-item {
+      padding-right: 5px;
+      padding-left: 5px;
+      height: 40px; 
+       border-right: 0px solid #d2d2d2;
+    }  
+    .nav-item:hover .dropdown-menu {
+      display: none;
     }
   }
   
-@media only screen and (max-device-width: 992px){
+/* @media  (max-device-width: 992px){
+
+.img-logo {
+  height: 50px;
+}
+
+} */
+
+@media(max-device-width: 768px){
 #contact-accordion {
     display: block;
 }
+.button-reserve{
+  display: none;
+ }
+ 
  .nav-item {
   padding-right: 5px;
   padding-left: 5px;
   height: 40px; 
    border-right: 0px solid #d2d2d2;
 }
+
 }
-@media only screen and (max-device-width: 768px){
+@media(max-device-width: 992px){
 #contact-accordion {
     display: block;
 }
+/* .button-reserve{
+  display: none;
+ } */
+
  .nav-item {
   padding-right: 5px;
   padding-left: 5px;
   height: 40px; 
    border-right: 0px solid #d2d2d2;
 }
+
 }
+
 label {
     font-size: 1.25rem;
     letter-spacing: .072em;
@@ -1219,3 +1267,4 @@ label {
 .about-logo-img{
     height: 160px;
 }
+
